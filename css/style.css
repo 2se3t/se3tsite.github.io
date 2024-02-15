@@ -19,6 +19,7 @@ section{
     
 }
 
+
 .blob-ctr{
     width: 70vw;
     height: 70vh;
@@ -26,6 +27,8 @@ section{
     z-index: -1;
     filter: blur(20px);
     filter: drop-shadow(0 0 300px #fff784 );
+    -webkit-filter: blur(20px) drop-shadow(0 0 300px #fff784);
+    filter: blur(20px) drop-shadow(0 0 300px #fff784);
 }
 
 #blob-svg{
